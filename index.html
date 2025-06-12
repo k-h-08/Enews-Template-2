@@ -226,32 +226,82 @@
 
             <!-- Community Impact -->
             <div id="community-impact" class="mb-12">
-                <div class="bg-gradient-to-r from-primary to-dark rounded-3xl p-8 text-white relative overflow-hidden">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16"></div>
-                    <div class="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-12 -translate-x-12"></div>
-                    <div class="relative z-10">
-                        <h2 class="text-3xl font-serif font-bold mb-6 text-center">Community Impact in Numbers</h2>
-                        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div class="text-center">
-                                <div class="text-4xl font-bold mb-2">2.5M</div>
-                                <div class="text-sm opacity-90">Patients Served</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-4xl font-bold mb-2">40</div>
-                                <div class="text-sm opacity-90">Locations</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-4xl font-bold mb-2">30K</div>
-                                <div class="text-sm opacity-90">Employees</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-4xl font-bold mb-2">$2B</div>
-                                <div class="text-sm opacity-90">Community Benefit</div>
-                            </div>
+    <div class="text-center mb-8">
+        <div class="flex items-center justify-center gap-4 mb-6">
+            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center shadow-lg">
+                <i class="fa-solid fa-trophy text-white text-2xl"></i>
+            </div>
+            <div class="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center shadow-lg">
+                <i class="fa-solid fa-heart text-accent text-2xl"></i>
+            </div>
+        </div>
+        <h2 class="text-4xl font-serif font-bold text-primary mb-2">Champions of Change</h2>
+        <h3 class="text-2xl text-secondary font-semibold mb-4">Philanthropy at Work</h3>
+        <div class="w-24 h-1 bg-gradient-to-r from-secondary to-accent mx-auto rounded-full"></div>
+    </div>
+    
+    <div class="space-y-6">
+        <div class="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                    <i class="fa-solid fa-heart-pulse text-white text-lg"></i>
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-bold text-primary mb-3">Powering Transplant Innovation</h3>
+                    <div class="story-content">
+                        <div class="story-preview">
+                            <p class="text-gray-700 leading-relaxed mb-4">The Lipsey Family Foundation's generous gift to Ochsner's Transplant Institute is revolutionizing organ transplantation. With funding from the foundation, Ochsner is investing in state-of-the-art organ preservation technologies that enhance transplant viability, save more lives and extend the reach of care.</p>
                         </div>
+                        <button class="transplant-read-more-btn group text-secondary hover:text-primary transition-all flex items-center font-medium cursor-pointer" onclick="toggleTransplantStory(this)">
+                            <span class="mr-2">Discover the impact</span>
+                            <i class="fa-solid fa-chevron-down group-hover:translate-y-1 transition-transform text-sm"></i>
+                        </button>
                     </div>
                 </div>
             </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-secondary rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                    <i class="fa-solid fa-user-nurse text-white text-lg"></i>
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-bold text-primary mb-3">Fueling the Future of Nursing</h3>
+                    <div class="story-content">
+                        <div class="story-preview">
+                            <p class="text-gray-700 leading-relaxed mb-4">Senior VP and Chief Nursing Officer Tiffany Murdock is giving back to her profession. Her $5,000 gift to the Nursing Empowerment Fund strengthens innovation at the bedside, supports wellness initiatives and enhances professional development for nurses.</p>
+                        </div>
+                        <button class="nursing-read-more-btn group text-secondary hover:text-primary transition-all flex items-center font-medium cursor-pointer" onclick="toggleNursingStory(this)">
+                            <span class="mr-2">Read Tiffany's story</span>
+                            <i class="fa-solid fa-chevron-down group-hover:translate-y-1 transition-transform text-sm"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-amber-600 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                    <i class="fa-solid fa-users text-white text-lg"></i>
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-bold text-primary mb-3">Opening Doors for Neurodiverse Youth</h3>
+                    <div class="story-content">
+                        <div class="story-preview">
+                            <p class="text-gray-700 leading-relaxed mb-4">Thanks to a $100,000 grant from Valero's Benefit for Children program, Ochsner's Boh Center for Child Development can support 20 individuals in its Vocational Social Skills Program. Participants gain vital workplace skills, preparing them for integrated employment.</p>
+                        </div>
+                        <button class="neurodiverse-read-more-btn group text-secondary hover:text-primary transition-all flex items-center font-medium cursor-pointer" onclick="toggleNeurodiverseStory(this)">
+                            <span class="mr-2">See how we're making a difference</span>
+                            <i class="fa-solid fa-chevron-down group-hover:translate-y-1 transition-transform text-sm"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
             <!-- Upcoming Events -->
             <div id="upcoming-events" class="mb-12">
