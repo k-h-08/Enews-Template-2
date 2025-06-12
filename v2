@@ -1,0 +1,325 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script> window.FontAwesomeConfig = { autoReplaceSvg: 'nest'};</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Ochsner Health - Newsletter &amp; Philanthropy Hub</title>
+    <script>tailwind.config = {
+  "theme": {
+    "extend": {
+      "colors": {
+        "primary": "#002d5d",
+        "secondary": "#0072C2",
+        "accent": "#e67e22",
+        "light": "#f8f9fa",
+        "dark": "#1b3e6f"
+      },
+      "fontFamily": {
+        "sans": [
+          "Inter",
+          "sans-serif"
+        ],
+        "serif": [
+          "Playfair Display",
+          "serif"
+        ]
+      }
+    }
+  }
+};</script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    
+    <style>
+        body { font-family: 'Inter', sans-serif !important; }
+        .fa, .fas, .far, .fal, .fab { font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important; }
+        ::-webkit-scrollbar { display: none; }
+    </style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&amp;display=swap"><style>
+  .highlighted-section {
+    outline: 2px solid #3F20FB;
+    background-color: rgba(63, 32, 251, 0.1);
+  }
+
+  .edit-button {
+    position: absolute;
+    z-index: 1000;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  html, body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  </style></head>
+<body class="bg-gray-50 font-sans">
+    
+    <!-- Header -->
+    <div id="header" class="w-full bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <img src="https://giving.ochsner.org/images/content/pagebuilder/oh_philanthropy_logo_color-543x275-cd48c5cf-4977-41d8-91.jpg" alt="Ochsner Health Logo" class="h-12 w-auto">
+                </div>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <span class="text-primary hover:text-secondary transition font-medium cursor-pointer">Home</span>
+                    <span class="text-secondary font-semibold cursor-pointer">Newsletter</span>
+                    <span class="text-primary hover:text-secondary transition font-medium cursor-pointer">Donate</span>
+                    <span class="text-primary hover:text-secondary transition font-medium cursor-pointer">Stories</span>
+                    <span class="text-primary hover:text-secondary transition font-medium cursor-pointer">Events</span>
+                    <span class="text-primary hover:text-secondary transition font-medium cursor-pointer">Contact</span>
+                </nav>
+                <div class="md:hidden">
+                    <i class="fa-solid fa-bars text-primary text-xl cursor-pointer"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div id="hero-section" class="relative bg-gradient-to-br from-primary via-dark to-primary text-white h-[600px] flex items-center">
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover opacity-20" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/c2061cd7b6-f8c91b03180e6996f82f.png" alt="modern hospital campus with healing gardens, medical professionals caring for patients, hope and innovation">
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-6xl font-serif font-bold mb-6">Health &amp; Hope Newsletter</h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">Stay connected with the latest breakthroughs, inspiring stories, and ways to make a difference in healthcare</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg">
+                    <i class="fa-solid fa-envelope mr-2"></i>Subscribe to Newsletter
+                </button>
+                <button class="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all">
+                    <i class="fa-solid fa-heart mr-2"></i>Make a Donation
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Preview -->
+    <div id="newsletter-preview" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-serif font-bold text-primary mb-4">Latest Newsletter</h2>
+                <p class="text-xl text-gray-600">Spring 2025 Edition - Building Tomorrow's Healthcare Today</p>
+            </div>
+            
+            <div class="bg-gradient-to-br from-light to-white rounded-3xl shadow-2xl overflow-hidden">
+                <div class="p-8 md:p-12">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                        <div>
+                            <div class="flex items-center gap-4 mb-6">
+                                <div class="w-16 h-16 bg-gradient-to-br from-accent to-primary rounded-2xl flex items-center justify-center">
+                                    <i class="fa-solid fa-hospital text-white text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-3xl font-serif font-bold text-primary">Children's Hospital Groundbreaking</h3>
+                                    <div class="h-1 w-20 bg-gradient-to-r from-accent to-primary rounded-full mt-2"></div>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 text-lg leading-relaxed mb-6">The Gayle and Tom Benson Ochsner Children's Hospital broke ground on April 29, 2025, marking a new era in pediatric care for Louisiana families.</p>
+                            <button class="bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all">
+                                Read Full Story <i class="fa-solid fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                        <div>
+                            <img class="w-full h-80 rounded-2xl object-cover shadow-xl" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/c8369c86b8-4d25867e178bf79256d4.png" alt="children">
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center">
+                                    <i class="fa-solid fa-brain text-secondary text-xl"></i>
+                                </div>
+                                <h4 class="font-bold text-primary">Brain Health Innovation</h4>
+                            </div>
+                            <p class="text-gray-600 mb-4">Pioneering neuroscience research transforming treatment for Alzheimer's and Parkinson's patients.</p>
+                            <span class="text-secondary font-semibold cursor-pointer hover:text-primary transition">Learn More →</span>
+                        </div>
+
+                        <div class="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center">
+                                    <i class="fa-solid fa-users text-accent text-xl"></i>
+                                </div>
+                                <h4 class="font-bold text-primary">Community Impact</h4>
+                            </div>
+                            <p class="text-gray-600 mb-4">Serving 2.5M patients across 40 locations with $2B in community benefit annually.</p>
+                            <span class="text-secondary font-semibold cursor-pointer hover:text-primary transition">View Impact →</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Subscription -->
+    <div id="newsletter-signup" class="py-16 bg-gradient-to-r from-primary to-dark">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+            <div class="mb-8">
+                <i class="fa-solid fa-envelope text-6xl mb-6 opacity-80"></i>
+                <h2 class="text-4xl font-serif font-bold mb-4">Never Miss an Update</h2>
+                <p class="text-xl opacity-90">Join thousands of subscribers who stay informed about our latest breakthroughs and impact</p>
+            </div>
+            
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto">
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <input type="email" placeholder="Enter your email address" class="flex-1 px-6 py-4 rounded-xl bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-accent">
+                    <button class="bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-xl font-semibold transition-all whitespace-nowrap">
+                        Subscribe Now
+                    </button>
+                </div>
+                <p class="text-sm opacity-75 mt-4">Unsubscribe anytime. We respect your privacy.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donation Options -->
+    <div id="donation-section" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-serif font-bold text-primary mb-4">Make a Difference</h2>
+                <p class="text-xl text-gray-600">Your generosity powers breakthrough research and compassionate care</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-light to-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-all">
+                    <div class="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-solid fa-child text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-primary mb-4">Children's Hospital</h3>
+                    <p class="text-gray-600 mb-6">Support the construction and equipment of our new state-of-the-art children's hospital</p>
+                    <button class="bg-gradient-to-r from-accent to-primary text-white px-6 py-3 rounded-xl font-semibold w-full hover:shadow-lg transition-all">
+                        Donate Now
+                    </button>
+                </div>
+
+                <div class="bg-gradient-to-br from-light to-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-all">
+                    <div class="w-20 h-20 bg-gradient-to-br from-secondary to-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-solid fa-microscope text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-primary mb-4">Medical Research</h3>
+                    <p class="text-gray-600 mb-6">Fund groundbreaking research in neuroscience, cancer treatment, and innovative therapies</p>
+                    <button class="bg-gradient-to-r from-secondary to-primary text-white px-6 py-3 rounded-xl font-semibold w-full hover:shadow-lg transition-all">
+                        Support Research
+                    </button>
+                </div>
+
+                <div class="bg-gradient-to-br from-light to-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-all">
+                    <div class="w-20 h-20 bg-gradient-to-br from-primary to-dark rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-solid fa-heart text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-primary mb-4">Patient Care</h3>
+                    <p class="text-gray-600 mb-6">Help provide financial assistance and support services for patients in need</p>
+                    <button class="bg-gradient-to-r from-primary to-dark text-white px-6 py-3 rounded-xl font-semibold w-full hover:shadow-lg transition-all">
+                        Help Patients
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div id="quick-links" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-serif font-bold text-primary text-center mb-12">Important Information</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all cursor-pointer">
+                    <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-calendar text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-primary mb-2">Upcoming Events</h3>
+                    <p class="text-gray-600 text-sm">Annual Gala, Health Fairs, and Community Programs</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all cursor-pointer">
+                    <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-file-text text-secondary text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-primary mb-2">Annual Report</h3>
+                    <p class="text-gray-600 text-sm">View our impact and financial transparency</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all cursor-pointer">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-handshake text-primary text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-primary mb-2">Volunteer</h3>
+                    <p class="text-gray-600 text-sm">Join our mission and make a difference</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all cursor-pointer">
+                    <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fa-solid fa-phone text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-primary mb-2">Contact Us</h3>
+                    <p class="text-gray-600 text-sm">Get in touch with our philanthropy team</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="bg-gradient-to-r from-primary to-dark text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <img src="https://giving.ochsner.org/images/content/pagebuilder/oh_philanthropy_logo_color-543x275-cd48c5cf-4977-41d8-91.jpg" alt="Ochsner Health Logo" class="h-12 w-auto brightness-0 invert mb-4">
+                    <p class="text-sm opacity-80">Advancing health through innovation, compassion, and community partnership</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm opacity-80">
+                        <li><span class="hover:opacity-100 transition cursor-pointer">Newsletter Archive</span></li>
+                        <li><span class="hover:opacity-100 transition cursor-pointer">Donation Portal</span></li>
+                        <li><span class="hover:opacity-100 transition cursor-pointer">Patient Stories</span></li>
+                        <li><span class="hover:opacity-100 transition cursor-pointer">Events Calendar</span></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Support</h4>
+                    <ul class="space-y-2 text-sm opacity-80">
+                        <li><span class="hover:opacity-100 transition cursor-pointer">Ways to Give</span></li>
+                        <li><span class="hover:opacity-100 transition cursor-pointer">Planned Giving</span></li>
+                        <li><span class="hover:opacity-100 transition cursor-pointer">Corporate Partners</span></li>
+                        <li><span class="hover:opacity-100 transition cursor-pointer">Volunteer</span></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition cursor-pointer">
+                            <i class="fa-brands fa-facebook"></i>
+                        </span>
+                        <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition cursor-pointer">
+                            <i class="fa-brands fa-twitter"></i>
+                        </span>
+                        <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition cursor-pointer">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                        <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition cursor-pointer">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </span>
+                    </div>
+                    <p class="text-sm opacity-80">1514 Jefferson Highway<br>New Orleans, LA 70121</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/20 pt-8 text-center">
+                <p class="text-sm opacity-75">© 2025 Ochsner Health. All rights reserved. | Privacy Policy | Terms of Use</p>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
